@@ -9,3 +9,14 @@ C:\Users\mfitzgi\reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.A
 C:\Users\mfitzgi\reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csproj.CopyComplete
 C:\Users\mfitzgi\reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.dll
 C:\Users\mfitzgi\reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.pdb
+C:\Users\mfitzgi\External\Reactivities\Persistence\bin\Debug\netstandard2.1\Persistence.deps.json
+C:\Users\mfitzgi\External\Reactivities\Persistence\bin\Debug\netstandard2.1\Persistence.dll
+C:\Users\mfitzgi\External\Reactivities\Persistence\bin\Debug\netstandard2.1\Persistence.pdb
+C:\Users\mfitzgi\External\Reactivities\Persistence\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\mfitzgi\External\Reactivities\Persistence\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\mfitzgi\External\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csprojAssemblyReference.cache
+C:\Users\mfitzgi\External\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.AssemblyInfoInputs.cache
+C:\Users\mfitzgi\External\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.AssemblyInfo.cs
+C:\Users\mfitzgi\External\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.csproj.CopyComplete
+C:\Users\mfitzgi\External\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.dll
+C:\Users\mfitzgi\External\Reactivities\Persistence\obj\Debug\netstandard2.1\Persistence.pdb
