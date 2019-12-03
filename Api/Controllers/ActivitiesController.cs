@@ -4,7 +4,6 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using static Application.Activities.List;
 
 namespace Api.Controllers
 {
@@ -19,9 +18,9 @@ namespace Api.Controllers
         }
 
         [HttpGet]
-        public async Task<List<Activity>> List()
+        public async Task<ActionResult<List<Activity>>> List()
         {
-            return await _mediator.Send(new Query());
+            return await _mediator.Send(new List.Query());
         }
     }
 }
