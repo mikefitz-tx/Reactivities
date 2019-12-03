@@ -96,3 +96,5 @@ C:\Users\mfitzgi\External\Reactivities\Api\obj\Debug\netcoreapp3.0\Api.RazorTarg
 C:\Users\mfitzgi\External\Reactivities\Api\obj\Debug\netcoreapp3.0\Api.csproj.CopyComplete
 C:\Users\mfitzgi\External\Reactivities\Api\obj\Debug\netcoreapp3.0\Api.dll
 C:\Users\mfitzgi\External\Reactivities\Api\obj\Debug\netcoreapp3.0\Api.pdb
+C:\Users\mfitzgi\External\Reactivities\api\bin\Debug\netcoreapp3.0\MediatR.dll
+C:\Users\mfitzgi\External\Reactivities\api\bin\Debug\netcoreapp3.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
