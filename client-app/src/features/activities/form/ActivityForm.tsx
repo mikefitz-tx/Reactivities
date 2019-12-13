@@ -6,7 +6,7 @@ import {v4 as uuid} from 'uuid';
 interface IProps {
     setEditMode: (editMode: boolean) => void;
     activity: IActivity;
-    createActivity: (activity: IActivity | null) => void;
+    createActivity: (activity: IActivity) => void;
     editActivity: (activity: IActivity) => void;
 }
 
@@ -35,9 +35,9 @@ export const ActivityForm: React.FC<IProps> = ({setEditMode, activity: initialFo
         if(activity.id.length===0) {
             let newActivity = {
                 ...activity,
-                id: 'guid'
+                id: uuid()
             }
-            createActivity(activity);
+            createActivity(newActivity);
         }
         else {
             editActivity(activity);
@@ -55,7 +55,7 @@ export const ActivityForm: React.FC<IProps> = ({setEditMode, activity: initialFo
                 <Form.Input placeholder='Title' value={activity.title} name='title' onChange={handleInputChange} />
                 <Form.TextArea rows={2} placeholder='Description' name='description' value={activity.description} onChange={handleInputChange} />
                 <Form.Input placeholder='Category' value={activity.category} name='category' onChange={handleInputChange} />
-                <Form.Input type='date' placeholder='Date'value={activity.date} name='date' onChange={handleInputChange} />
+                <Form.Input type='datetime-local' placeholder='Date'value={activity.date} name='date' onChange={handleInputChange} />
                 <Form.Input placeholder='City' value={activity.city} name='city' onChange={handleInputChange} />
                 <Form.Input placeholder='Venue' value={activity.venue} name='venue' onChange={handleInputChange} />
                 <Button floated='right' positive type='submit' content='Submit' />
